@@ -1,0 +1,45 @@
+footer {
+    background: #4472c4;
+    color: white;
+    font-size: 0.8em;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 0px 2px 0px;
+    height: 30px;
+}
+
+
+.horizontal a{
+    color: white;
+}
+
+#leftFooter {
+    width: 200px;
+    padding-left: 20px;
+    font-size: 12px;
+}
+
+#rightFooter {
+    width: 200px;
+    text-align: right;
+    padding-right: 20px;
+
+}
+
+ul.horizontal li {
+    display: inline;
+
+}
+
+#twitterLogo{
+    width: 20px;
+    height: 20px;
+}
+
+#facebookLogo{
+    width: 15px;
+    height: 20px;
+    padding-right: 10px;
+}
