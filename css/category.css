@@ -1,0 +1,159 @@
+main {
+    display: flex;
+    flex-direction: column;
+    font-family: Cambria;
+}
+
+.row {
+    display: -webkit-flex;
+    display: flex;
+}
+
+.left-column {
+    width: 20%;
+    padding: 100px 0px 20px;
+
+}
+
+.right-column {
+    -webkit-flex: 2;
+    -ms-flex: 2;
+    flex: 2;
+
+}
+
+.flex-container {
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    justify-content: center;
+
+}
+
+.flex-item {
+    margin: 5px 25px 15px;
+    width: 340px;
+
+}
+
+#categoryMenu {
+    display: flex;
+    width: 100%;
+
+}
+
+.vertical-menu {
+    max-width: 100%;
+    padding: 10px 10px 0px;
+    text-transform: capitalize;
+
+}
+
+.vertical-menu a {
+    background-color: white; /* Grey background color */
+    color: #4472c4;
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    border: 2px solid #4472c4;
+    text-align: center;
+    align-content: center;
+    max-width: 100%;
+    margin: auto 10px 20px;
+    border-radius: 10px;
+
+}
+
+.vertical-menu a:hover {
+    background-color: lightgrey;
+    color: black;
+}
+
+.vertical-menu a.active {
+    background-color: #4472c4;
+    color: white;
+}
+
+#category {
+    max-width: 100%;
+    padding: 15px;
+    margin: 15px;
+    color: white;
+
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    background-color: #4472c4;
+    text-transform: uppercase;
+}
+
+.book {
+
+    display: inline-block;
+    margin-right: 3px;
+    border: 1px solid black;
+
+}
+
+.bookContent {
+    display: inline-block;
+
+}
+
+.title {
+    font-weight: bold;
+    font-size: 16px;
+    white-space: nowrap;
+    width: 200px;
+    text-overflow: ellipsis;
+
+}
+
+.author {
+    color: #4472c4;
+    font-family: "Arial";
+    font-size: 13px;
+    top: 10px;
+}
+
+.price {
+    color: firebrick;
+    font-family: "Arial Narrow";
+    font-size: 20px;
+    font-weight: bold;
+    top: 10px;
+    padding-top: 7px;
+}
+
+.addToCartButton {
+    background-color: firebrick;
+    color: white;
+    padding: 10px;
+    width: 100px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 0px 4px;
+    cursor: pointer;
+    position: relative;
+    top: 74px;
+
+}
+
+.readMore {
+    background-color: grey;
+    color: white;
+    padding: 10px;
+    width: 100px;
+    text-align: center;
+    font-size: 14px;
+    cursor: pointer;
+    font-weight: bold;
+    position: relative;
+    top: 74px;
+
+}
+
+.buttonFlex {
+    display: flex;
+    -webkit-flex-flow: row wrap;
+}

@@ -1,0 +1,83 @@
+main {
+    display: flex;
+    flex-direction: column;
+    font-family: Cambria;
+}
+
+#header{
+    padding-bottom: 20px;
+}
+
+#confirmationDetails{
+    text-align: center;
+}
+
+#middle{
+    max-width: 100%;
+    margin: auto;
+    padding-bottom: 20px;
+}
+#confirmationHeader{
+    font-size: 30px;
+    font-weight: bold;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+}
+
+#confirmationNumber{
+    padding-bottom: 10px;
+}
+
+
+.header {
+    max-width: 100%;
+    text-align: center;
+    background-color: #4472c4;
+    color: white;
+
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.confirmationTable{
+    padding: 0px 20px;
+    max-width: 100%;
+    text-align: center;
+}
+
+#confirmationTable td, #confirmationTable th, #confirmationTable tr {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#confirmationTable tr:nth-child(even) {
+    background-color: lightgrey;
+}
+
+.totalAmount{
+    font-weight: bold;
+}
+#confirmationTable {
+    border-collapse: collapse;
+    width: 100%;
+
+}
+
+#customerInfo{
+    margin: auto;
+    background-color: #4472c4;
+    color: white;
+    padding: 10px;
+
+}
+
+#customerInfoHeading{
+    font-weight: bold;
+    text-align: center;
+}
+
+#bottom{
+    padding-bottom: 20px;
+    margin: auto;
+    width: 395px;
+}

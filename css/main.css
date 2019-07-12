@@ -1,0 +1,19 @@
+body {
+    font: 1em normal Verdana, Tahoma, sans-serif;
+    color: black;
+    font-size: 20px;
+}
+
+main {
+    background: white;
+    display: flex;
+    flex-direction: column;
+}
+
+
+a:hover,
+a:active,
+input[type=submit]:hover,
+ul.buttons a:hover{
+    color: lightgrey;
+}

@@ -1,0 +1,73 @@
+main {
+    display: flex;
+    flex-direction: column;
+    font-family: Cambria;
+}
+
+.flex-container {
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    justify-content: center;
+}
+
+.flex-item {
+    background-color: #4472c4;
+    margin: 5px 20px 15px;
+    border: 1px solid black;
+}
+
+#upperHome {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#seller {
+    max-width: 100%;
+    padding: 15px;
+    margin: 15px;
+
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    background-color: #4472c4;
+}
+
+#midHome {
+    padding-bottom: 20px;
+}
+
+#bottomHome {
+    padding-bottom: 30px;
+}
+
+#newReleases {
+    width: 50%;
+}
+
+#releases {
+    max-width: 100%;
+    padding: 15px;
+    margin: 15px;
+    color: white;
+
+    font-size: 30px;
+    text-align: center;
+    background-color: #4472c4;
+}
+
+#topRated {
+    width: 50%;
+}
+
+#rated {
+    max-width: 100%;
+    padding: 15px;
+    margin: 15px;
+    color: white;
+
+    font-size: 30px;
+    text-align: center;
+    background-color: #4472c4;
+}
